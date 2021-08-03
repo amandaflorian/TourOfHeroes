@@ -10,7 +10,7 @@ Clonar o projeto
 
 >cd TourOfHeroes
 
-Instalar as dependências do RUby on Rails
+Instalar as dependências do Ruby on Rails
 
 >bundle install
 
