@@ -1,24 +1,20 @@
-# README
+<p>Tour Of Heroes API</p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Curso de Ruby on Rails 6 como API de Heroes.
 
-Things you may want to cover:
+<p>Configurações iniciais para rodar o projeto</p>
 
-* Ruby version
+# clonar o projeto
+git clone https://github.com/amandaflorian/TourOfHeroes.git
+cd TourOfHeroes
 
-* System dependencies
+# instalar as dependências do RUby on Rails
+bundle install
 
-* Configuration
+# instalar os bancos de dados development e test
+rails db:create
+>criar as tabelas
+rails db:migrate
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<p>Rodar o projeto</p>
+rails s
