@@ -1,20 +1,27 @@
-<p>Tour Of Heroes API</p>
+# Tour Of Heroes API
 
 Curso de Ruby on Rails 6 como API de Heroes.
 
-<p>Configurações iniciais para rodar o projeto</p>
+# Configurações iniciais para rodar o projeto
 
-# clonar o projeto
-git clone https://github.com/amandaflorian/TourOfHeroes.git
-cd TourOfHeroes
+Clonar o projeto
 
-# instalar as dependências do RUby on Rails
-bundle install
+>git clone https://github.com/amandaflorian/TourOfHeroes.git
 
-# instalar os bancos de dados development e test
-rails db:create
->criar as tabelas
-rails db:migrate
+>cd TourOfHeroes
 
-<p>Rodar o projeto</p>
-rails s
+Instalar as dependências do RUby on Rails
+
+>bundle install
+
+Instalar os bancos de dados development e test
+
+>rails db:create
+
+Criar as tabelas
+
+>rails db:migrate
+
+# Rodar o projeto
+
+>rails s
